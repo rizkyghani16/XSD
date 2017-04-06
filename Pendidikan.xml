@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pendidikan Data="Mahasiswa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pendidikan.xsd">
+	
+	<nama>Rizky Abdul Ghani Suherli</nama>
+	<npm>1154058</npm>
+	<kelas>2B</kelas>
+	<prodi>Diploma 4</prodi>
+	<jurusan>Teknik Informatika</jurusan>
+	<jeniskelamin>Lakilaki</jeniskelamin>
+	<alamat>Bandung</alamat>
+	<email>rizkyghani16@gmail.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+	
+	<nama>Jonathan Eka Ratmoko</nama>
+	<npm>4153032</npm>
+	<kelas>2B</kelas>
+	<prodi>Diploma 3</prodi>
+	<jurusan> Teknik Informatika</jurusan>
+	<jeniskelamin>Lakilaki</jeniskelamin>
+	<alamat>Jakarta</alamat>
+	<email>joenathaneka@gmail.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+	
+	<nama>Tri Wahyuni</nama>
+	<npm>1163024</npm>
+	<kelas>1C</kelas>
+	<prodi>Diploma 3</prodi>
+	<jurusan>Teknik Informatika</jurusan>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Palembang</alamat>
+	<email>tri.wahyuni2505@yahoo.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+	
+	<nama>Fajri Mualim</nama>
+	<npm>1154078</npm>
+	<kelas>2B</kelas>
+	<prodi>Diploma 4</prodi>
+	<jurusan>Teknik Informatika</jurusan>
+	<jeniskelamin>Lakilaki</jeniskelamin>
+	<alamat>Tangerang</alamat>
+	<email>fajrimualim17@gmail.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+	
+	<nama>Novrianty Sagita Nawir</nama>
+	<npm>4154084</npm>
+	<kelas>2C</kelas>
+	<prodi>Diploma 4</prodi>
+	<jurusan>Manajemen Bisnis</jurusan>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Pare-Pare</alamat>
+	<email>novriantysagita@yahoo.co.id</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+</pendidikan>

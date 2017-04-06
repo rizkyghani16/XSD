@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="pendidikan">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="jurusan"/>
+                <xs:element ref="kampus"/>
+                <xs:element ref="kelas"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="npm"/>
+                <xs:element ref="prodi"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern
+    				value="([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})">
+    			</xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="jeniskelamin" type="xs:NCName"/>
+    <xs:element name="jurusan" type="xs:string"/>
+    <xs:element name="kampus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="nama" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kelas" type="xs:NMTOKEN"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="npm" type="xs:integer"/>
+    <xs:element name="prodi" type="xs:string"/>
+    <xs:element name="alamat" type="xs:string"/>
+</xs:schema>
